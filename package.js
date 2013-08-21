@@ -3,6 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+  api.export('URLify2');
+
   api.add_files([
     'urlify2.js',
     'n11n.js',
