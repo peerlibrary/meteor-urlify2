@@ -8,7 +8,7 @@ URLify2 = function (s, num_chars) {
     s = s.toLowerCase();
     if (num_chars) {
         if (s.length <= num_chars) {
-            return num_chars;
+            return s;
         }
         var splits = s.split('-');
         if (splits.length === 1) {
