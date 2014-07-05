@@ -1,6 +1,6 @@
 {
   "name": "urlify2",
-  "description": "Generate slugs with smart urlify",
+  "description": "Generate slugs with smart urlify supporting unicode",
   "homepage": "https://github.com/peerlibrary/meteor-urlify2",
   "author": "The PeerLibrary Project",
   "version": "0.2.1",

@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Generate slugs with smart urlify"
+  summary: "Generate slugs with smart urlify supporting unicode"
 });
 
 Package.on_use(function (api) {
