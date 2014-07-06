@@ -1,4 +1,4 @@
-Tinytest.add('meteor-urlify2', function (test) {
+Tinytest.add('urlify2', function (test) {
   var isDefined = false;
   try {
     URLify2;
