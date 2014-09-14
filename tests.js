@@ -7,7 +7,7 @@ Tinytest.add('urlify2', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "URLify is not defined");
-  test.isTrue(Package.urlify2.URLify2, "Package.urlify2.URLify2 is not defined");
+  test.isTrue(Package['peerlibrary:urlify2'].URLify2, "Package.peerlibrary:urlify2.URLify2 is not defined");
 
   test.equal(URLify2('Işık ılık süt iç'), 'isik-ilik-sut-ic');
   test.equal(URLify2('ČĆŽŠĐ čćžšđ'), 'cczsdj-cczsdj');
