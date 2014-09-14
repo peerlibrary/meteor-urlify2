@@ -5,6 +5,10 @@
       "1.0.3"
     ],
     [
+      "peerlibrary:urlify2",
+      "0.2.3"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
