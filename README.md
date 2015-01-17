@@ -15,5 +15,5 @@ Installation
 ------------
 
 ```
-mrt add urlify2
+meteor add peerlibrary:urlify2
 ```
